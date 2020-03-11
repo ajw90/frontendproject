@@ -34,6 +34,7 @@ div.centerThis {
     height: 100px; 
     left: 50%;  
     margin: -50px 0 0 -30%; 
+    min-width: 200px;  
     opacity: 0.9;           
     position: absolute;
     text-align: center; 
@@ -98,36 +99,25 @@ div.centerThis {
 #circle1 {
     background-image: url("resources/images/rainbow.gif");   
     background-size: 100%;
-/*    border-radius: 750px;           
-    height: 750px; */ 
-    left: 50px;
-    top: 50px;
-/*    width: 750px; */                          
+    left: 10px;
+    top: 10px;
+                       
 }   
 #circle2 {
     background-image: url("resources/images/ambient_background3.gif");   
-/*    border-radius: 280px;       
-    height: 280px; */ 
-    right: 50px;
-    top: 50px;
-/*    width: 280px;  */             
+    right: 10px;
+    top: 10px;          
 }    
 #circle3 {
     background-image: url("resources/images/ambient_background2.gif");       
     background-size: 100%;
-    bottom: 50px;
-    left: 50px;
-/*    border-radius: 400px;   
-      height: 400px;  */
-/*    width: 400px;    */           
+    bottom: 10px;
+    left: 10px;         
 }    
 #circle4 { 
-    background-image: url("resources/images/ambient_background4.gif");   
-/*    border-radius: 350px;   */
-    bottom: 50px;   
-/*    height: 350px; */ 
-    right: 50px;
-/*    width: 350px;  */                 
+    background-image: url("resources/images/ambient_background4.gif");    
+    bottom: 10px;   
+    right: 10px;              
 } 
 /* Specifically for aboutme.html */
 .aboutMain {
@@ -136,10 +126,11 @@ div.centerThis {
     border-style: solid;
     border-width: 2px;
     color: #00f0a0;
-    font-size: 18px;
+    font-size: 14px;
     margin: auto;
     margin-bottom: 30px;
     margin-top: 30px;
+    min-width: 200px;  
     opacity: 0.85;
     padding: 30px;
     position: relative;
@@ -175,6 +166,7 @@ div.centerThis {
     display: flex;
     justify-content: center;
     flex: 1;
+    min-width: 200px;  
     width: 100px;
 }
 .tasksFlexContainer {
@@ -188,13 +180,15 @@ div.centerThis {
     border-style: solid;
     border-width: 2px;
     color: #00f0a0;
+    font-size: 14px;
     margin: 30px;
     margin-bottom: 30px;
-    margin-top: 30px;
+    margin-top: 30px;  
+    min-width: 200px;      
     opacity: 0.85;
     padding: 30px;
     position: relative;
-    width: 44%;
+    width: 36%;
 }
 .taskListContainer a, .taskListContainer hr {
     color: inherit;
@@ -209,8 +203,9 @@ div.centerThis {
 #courseworkNav {
     margin-top: 30px;
     margin-left: auto;
-    margin-right: auto;
-    width: 44%;
+    margin-right: auto;  
+    min-width: 200px;      
+    width: 36%;
 }
 #courseworkPage {
     background-attachment: fixed;  
@@ -232,12 +227,13 @@ div.centerThis {
     background-color: #ffffff;
     border-radius: 25px;
     color: #000000;
-    font-size: 15px;
+    font-size: 14px;
     opacity: 0.3; 
     padding: 30px;
     margin: auto;  
     margin-bottom: 30px;
-    margin-top: 30px;  
+    margin-top: 30px; 
+    min-width: 200px; 
     width: 60%;    
 }
 .tasks a {
@@ -267,6 +263,7 @@ div.centerThis {
     height: 15px;
     justify-content: space-around;
     left: 0%;
+    min-width: 200px;
     position: fixed;
     top: 0%;
     width: 100%;
@@ -281,6 +278,7 @@ div.centerThis {
 }
 .tasksNav h3 {
     display: none;
+    font-size: 14px;
 }
 .tasksNav:hover {
     border-bottom-color: #000000;
@@ -307,5 +305,6 @@ div.centerThis {
 
 }
 #navDownArrow img {
+    min-width: 0;
     width: 30px;
 }
