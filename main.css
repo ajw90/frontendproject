@@ -36,7 +36,7 @@ div.centerThis {
     font-weight: bold;  
     height: 100px; 
     left: 50%;  
-    margin: -50px 0 0 -30%; 
+    margin: -50px 0 -25% -30%; 
     min-width: 200px;  
     opacity: 0.9;           
     position: absolute;
@@ -96,13 +96,13 @@ div.centerThis {
 } 
 #circle1 {
     background-image: url("resources/images/ambient_background3.gif");   
-    left: 30px;
-    top: 30px;          
+    left: 60px;
+    top: 60px;          
 }      
 #circle2 { 
     background-image: url("resources/images/ambient_background4.gif");    
-    bottom: 30px;                
-    right: 30px;
+    bottom: 60px;                
+    right: 60px;
 } 
 /* Specifically for aboutme.html */
 .aboutMain {
