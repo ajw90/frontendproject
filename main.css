@@ -243,7 +243,7 @@ div.centerThis {
 .tasks:hover {
     opacity: 0.9;
 }
-.tasks p:hover {
+.tasks p:hover, .tasks h4:hover {
     font-weight: bolder;
 }
 .tasks:hover a {
@@ -280,6 +280,9 @@ div.centerThis {
     display: none;
 }
 .tasksNav:hover {
+    border-bottom-color: #000000;
+    border-bottom-style: solid;
+    border-bottom-width: 6px;
     height: 60px;
 }
 .tasksNav:hover h3 {
