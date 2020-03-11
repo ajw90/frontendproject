@@ -38,7 +38,7 @@ div.centerThis {
     opacity: 0.9;           
     position: absolute;
     text-align: center; 
-    top: 35%;
+    top: 50%;
     width: 60%; 
 }
 #menu h1 {
@@ -88,36 +88,23 @@ div.centerThis {
 /* Circles for index.html */
 .circles {
     border-color: #000000;
-    border-radius: 250px;
+    border-radius: 300px;
     border-style: solid;
     border-width: 1px;
-    height: 250px;
+    height: 300px;
     opacity: 0.8;  
     position: absolute; 
-    width: 250px;
+    width: 300px;
 } 
 #circle1 {
-    background-image: url("resources/images/rainbow.gif");   
-    background-size: 100%;
-    left: 10px;
-    top: 10px;
-                       
-}   
-#circle2 {
     background-image: url("resources/images/ambient_background3.gif");   
-    right: 10px;
+    left: 80px;
     top: 10px;          
-}    
-#circle3 {
-    background-image: url("resources/images/ambient_background2.gif");       
-    background-size: 100%;
-    bottom: 10px;
-    left: 10px;         
-}    
-#circle4 { 
+}      
+#circle2 { 
     background-image: url("resources/images/ambient_background4.gif");    
-    bottom: 10px;   
-    right: 10px;              
+    bottom: 10px;                
+    right: 80px;
 } 
 /* Specifically for aboutme.html */
 .aboutMain {
