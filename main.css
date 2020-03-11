@@ -86,45 +86,48 @@ div.centerThis {
 } 
 /* Circles for index.html */
 .circles {
-    opacity: 0.8;   
-    position: absolute; 
     border-color: #000000;
+    border-radius: 250px;
     border-style: solid;
     border-width: 1px;
+    height: 250px;
+    opacity: 0.8;  
+    position: absolute; 
+    width: 250px;
 } 
 #circle1 {
     background-image: url("resources/images/rainbow.gif");   
     background-size: 100%;
-    border-radius: 750px;           
-    height: 750px;  
-    left: 25%;
-    top: 150px;
-    width: 750px;                           
+/*    border-radius: 750px;           
+    height: 750px; */ 
+    left: 50px;
+    top: 50px;
+/*    width: 750px; */                          
 }   
 #circle2 {
     background-image: url("resources/images/ambient_background3.gif");   
-    border-radius: 280px;       
-    height: 280px;  
-    left: 10%;
-    top: 200px;
-    width: 280px;               
+/*    border-radius: 280px;       
+    height: 280px; */ 
+    right: 50px;
+    top: 50px;
+/*    width: 280px;  */             
 }    
 #circle3 {
     background-image: url("resources/images/ambient_background2.gif");       
     background-size: 100%;
-    border-radius: 400px;   
-    height: 400px;  
-    right: 10%;
-    top: 20px;
-    width: 400px;               
+    bottom: 50px;
+    left: 50px;
+/*    border-radius: 400px;   
+      height: 400px;  */
+/*    width: 400px;    */           
 }    
 #circle4 { 
     background-image: url("resources/images/ambient_background4.gif");   
-    border-radius: 350px;   
-    bottom: 40px;   
-    height: 350px;  
-    left: 50%;
-    width: 350px;                   
+/*    border-radius: 350px;   */
+    bottom: 50px;   
+/*    height: 350px; */ 
+    right: 50px;
+/*    width: 350px;  */                 
 } 
 /* Specifically for aboutme.html */
 .aboutMain {
@@ -141,20 +144,20 @@ div.centerThis {
     padding: 30px;
     position: relative;
     text-align: center;
-    width: 30%;
+    width: 60%;
 }
 .aboutMain a {
     color: #00f0a0;
 }
 .aboutMain a:hover {
-    color: #ffff00;
+    color: #f0a000;
     font-weight: bold;
 }
 .aboutMain hr {
     color: inherit;
 }
 .aboutMain p:hover .first{
-    color: #ffff00;
+    color: #f0a000;
     font-size: 20px;
     font-weight: bold;
 }
@@ -197,7 +200,7 @@ div.centerThis {
     color: inherit;
 }
 .taskListContainer a:hover {
-    color: #ffff00;
+    color: #f0a000;
     font-weight: bold;
 }
 .taskListContainer h2, .taskListContainer h3 {
