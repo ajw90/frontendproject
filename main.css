@@ -98,13 +98,13 @@ div.centerThis {
 } 
 #circle1 {
     background-image: url("resources/images/ambient_background3.gif");   
-    left: 80px;
-    top: 10px;          
+    left: 30px;
+    top: 30px;          
 }      
 #circle2 { 
     background-image: url("resources/images/ambient_background4.gif");    
-    bottom: 10px;                
-    right: 80px;
+    bottom: 30px;                
+    right: 30px;
 } 
 /* Specifically for aboutme.html */
 .aboutMain {
@@ -134,10 +134,8 @@ div.centerThis {
 .aboutMain hr {
     color: inherit;
 }
-.aboutMain p:hover .first{
+.aboutMain p:hover::first-line {
     color: #f0a000;
-    font-size: 20px;
-    font-weight: bold;
 }
 #aboutPage {
     background-attachment: fixed;  
@@ -265,7 +263,7 @@ div.centerThis {
 }
 .tasksNav h3 {
     display: none;
-    font-size: 14px;
+    font-size: 18px;
 }
 .tasksNav:hover {
     border-bottom-color: #000000;
