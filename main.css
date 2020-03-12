@@ -52,7 +52,7 @@ div.centerThis {
 }
 #menu {
     background-color: #f0a000; 
-    border-radius: 10px; 
+    border-radius: 50px; 
     font-size: 18px;    
     font-weight: bold;  
     height: 100px; 
@@ -81,7 +81,7 @@ div.centerThis {
     display: none;
 }
 #menu:hover #dropMenu {
-    border-radius: 10px; 
+    border-radius: 50px; 
     display: block;
 }
 #menuLabel h1
@@ -97,17 +97,17 @@ div.centerThis {
     height: 33.33%;             
 }
 #opt1:hover {  
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;                 
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;                 
 }
 #opt3:hover {     
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;   
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;   
 } 
 /* Specifically for aboutme.html */
 .aboutMain {
     background-color: #000000;
-    border-radius: 10px;
+    border-radius: 25px;
     border-style: solid;
     border-width: 2px;
     color: #00f0a0;
@@ -145,15 +145,14 @@ div.centerThis {
 .circleStyle {
     list-style-type: disc;
 }
-
 .tasksFlexContainer {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-around;
 }
 .taskListContainer {
     background-color: #000000;
-    border-radius: 10px;
+    border-radius: 25px;
     border-style: solid;
     border-width: 2px;
     color: #00f0a0;
@@ -165,7 +164,7 @@ div.centerThis {
     opacity: 0.85;
     padding: 30px;
     position: relative;
-    width: 36%;
+    width: 60%;
 }
 .taskListContainer a, .taskListContainer hr {
     color: inherit;
@@ -181,17 +180,31 @@ div.centerThis {
     color: #f0a000;
 }
 #courseworkNav {
-    margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;  
-    min-width: 200px;      
-    width: 36%;
+    margin: 30px;  
+    min-width: 200px; 
+    position: initial;     
+    width: inherit;
 }
 #courseworkPage {
     background-attachment: fixed;  
     background-color: #000000;   
     background-image: url("resources/images/stainedglass.jpg");
     background-size: 100% 100%;
+}
+@media only screen and (max-width: 1000px) {
+    .tasksFlexContainer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    #courseworkNav {
+        margin-top: 30px;
+        margin-left: auto;  
+        margin-right: auto;
+        min-width: 200px; 
+        position: initial;     
+        width: 60%;
+    }
 }
 /* Specifically for task pages */
 .refs {
@@ -205,7 +218,7 @@ div.centerThis {
 }
 .tasks {
     background-color: #ffffff;
-    border-radius: 10px;
+    border-radius: 25px;
     color: #000000;
     font-size: 14px;
     opacity: 0.3; 
