@@ -22,7 +22,7 @@
         <div class="answers">
             <p>
                 This project is composed of three layers; the site begins with a home page (index.html); 
-                this is fairly sparse, it contains a large div element in the centre; hovering over 
+                this is fairly sparse, it contains a large div element in the centre; when the cursor is hovering over 
                 this div, a dropdown menu - slightly crude due to its being constructed without 
                 JavaScript - is exposed; from here, one can access the “about me” section and the 
                 coursework menu page - there is also a small feature enabling one to cycle between dark and 
@@ -38,7 +38,7 @@
                 second div contains a link back to the home section.
             </p> 
             <p>
-                The coursework page (coursework.html) contains three divs; the topmost contains a link 
+                The coursework page (coursework.html) contains three divs; the third contains a link 
                 back to the home page; the other two are positioned horizontally adjacent to one 
                 another using CSS flexbox; however, they are set to wrap vertically once the 
                 screen narrows sufficiently. These latter divs contain links to the tasks from 
@@ -50,7 +50,7 @@
             <p>
                 Both the “about me” and coursework pages use the same style; the background 
                 images both feature modernist architecture; the divs are styled to resemble a 
-                traditional, 1980s terminal with a black background and mint green text (#00f0a0).
+                stereotypical 1980s computer terminal with a black background and mint green text (#00f0a0).
             </p>
             <p>
                 From the coursework page, the third and deepest layer of the website is reached. 
@@ -58,7 +58,7 @@
                 four of these pages are designed according to an identical template; 
                 the background consists of one large, rainbow-coloured gif; in the 
                 foreground, there are a number of white divs; each of these contains a single 
-                task and my response to the question, plus any references (where applicable); 
+                question/task, my response to the question/action taken, plus any references (where applicable); 
                 these divs are initially translucent (opacity of 0.3); however, on hovering 
                 over them, they become almost opaque (0.9), rendering the content readable. 
                 At the top of this page is a thin orange bar with a down arrow symbol; when 
@@ -138,7 +138,8 @@
                 this issue, consideration should be given to the categories of disability and how each 
                 poses different barriers to use. Accessibility could also be said to entail considering 
                 the different types of device a person might be using. What size is the screen? Does it 
-                need to function with multiple languages? Will it make disproportionate demands on the 
+                need to function with multiple languages? Are any of these languages written right-to-left? 
+                Will it make disproportionate demands on the 
                 batteries of mobile devices? Does the website deliver basic functionality without 
                 JavaScript and/or CSS? Should it? These are some of the questions it might be worth 
                 considering [2].
@@ -213,11 +214,11 @@
                 extension “.html”. The style of a document is the responsibility of CSS (Cascading Style 
                 Sheets) [2]; this can be embedded within the HTML document itself (“inline” [3]); however, 
                 best practice prefers that this not be done [3]; CSS files are parsed by the browser and help 
-                it decide how to display the associated HTML document’s content.
+                it decide how to display the associated HTML document’s content; CSS uses the file extension, ".css".
             </p>
             <p>
-                JavaScript is a scripting language [8] which has the distinction amongst 
-                programming languages of being the most widely supported by major browsers; it 
+                JavaScript, file extension ".js", is a scripting language [8] which has the distinction amongst 
+                programming languages of being the only one to enjoy the widespread support of major web browsers; it 
                 is used to implement dynamic behaviour and functionality within HTML documents 
                 which would otherwise consist of static content [4]; JavaScript can be included 
                 within a HTML document by its insertion within “&#60;script&#62;” tags or by referencing the URL at which the script is located [5].
@@ -228,7 +229,7 @@
                 Whilst there has been a push for increasing standardisation, it is still difficult to 
                 ensure that a given technology can be used on all platforms; one way of eluding this 
                 particular risk is to make continuous use throughout the development cycle of online sources 
-                indicating whether the file type in question can rendered by the target browser; caniuse.com 
+                indicating whether the file type in question can be handled by the target browser; caniuse.com 
                 is an example of this type of resource [7].           
             </p>
         </div>
