@@ -24,7 +24,9 @@ div.centerThis {
 #indexPage:target {
     background-color: #000000;
 }
-#indexPage:target .circles {
+
+#indexPage:target #circle {
+    background-image: url("resources/images/ambient_background4.gif");
     border-color: #ffffff;
     border-style: solid;
     border-width: 1px;
@@ -83,26 +85,22 @@ div.centerThis {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;   
 } 
-/* Circles for index.html */
-.circles {
+/* Circle for index.html */
+#circle { 
+    background-image: url("resources/images/ambient_background3.gif");    
     border-color: #000000;
     border-radius: 300px;
     border-style: solid;
-    border-width: 1px;
-    height: 300px;
-    opacity: 0.8;  
-    position: absolute; 
-    width: 300px;
-} 
-#circle1 {
-    background-image: url("resources/images/ambient_background3.gif");   
-    left: 60px;
-    top: 60px;          
-}      
-#circle2 { 
-    background-image: url("resources/images/ambient_background4.gif");    
-    bottom: 60px;                
-    right: 60px;
+    border-width: 1px;    
+    height: 500px;
+    left: 10%;                
+    top: 10%;
+    width: 500px;   
+    left: 50%;  
+    margin: -250px 0 0% 0px; 
+    opacity: 0.7;           
+    position: absolute;
+    top: 50%;    
 } 
 /* Specifically for aboutme.html */
 .aboutMain {
