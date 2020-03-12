@@ -15,7 +15,7 @@ div.centerThis {
     top: 40%;
 }
 .mainMenuOptions:hover {
-    background-color: #6000ff;
+    background-color: #80a080;
 }
 #indexPage {
     background-color: #ffffff;
@@ -30,6 +30,9 @@ div.centerThis {
     border-color: #ffffff;
     border-style: solid;
     border-width: 1px;
+}
+#indexPage:target .mainMenuOptions:hover {
+    background-color: #f08080;
 }
 #menu {
     background-color: #f0a000; 
