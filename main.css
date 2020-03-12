@@ -17,6 +17,22 @@ div.centerThis {
 .mainMenuOptions:hover {
     background-color: #80a080;
 }
+#circle { 
+    background-image: url("resources/images/ambient_background3.gif");    
+    border-color: #000000;
+    border-radius: 600px;
+    border-style: solid;
+    border-width: 1px;    
+    height: 600px;
+    left: 10%;                
+    top: 10%;
+    width: 600px;   
+    left: 50%;  
+    margin: -300px 0 0% -300px; 
+    opacity: 0.7;           
+    position: absolute;
+    top: 50%;    
+} 
 #indexPage {
     background-color: #ffffff;
     background-attachment: initial;
@@ -87,23 +103,6 @@ div.centerThis {
 #opt3:hover {     
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;   
-} 
-/* Circle for index.html */
-#circle { 
-    background-image: url("resources/images/ambient_background3.gif");    
-    border-color: #000000;
-    border-radius: 300px;
-    border-style: solid;
-    border-width: 1px;    
-    height: 500px;
-    left: 10%;                
-    top: 10%;
-    width: 500px;   
-    left: 50%;  
-    margin: -250px 0 0% 0px; 
-    opacity: 0.7;           
-    position: absolute;
-    top: 50%;    
 } 
 /* Specifically for aboutme.html */
 .aboutMain {
